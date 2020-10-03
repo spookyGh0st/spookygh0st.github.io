@@ -28,5 +28,13 @@
 
   .logo {
     margin-bottom: 20px;
+    opacity: 0.9;
+    transition: all 0.05s;
   }
-  
+
+  .logo:hover{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222);
+    opacity: 1.0;
+    transform: scale(1.05);
+  }
